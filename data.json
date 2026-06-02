@@ -1,0 +1,213 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/foxtube-downloader",
+  "serply_link": "https://serp.ly/foxtube-downloader",
+  "app_name": "Foxtube Video Downloader",
+  "short_description": "Download & Save Foxtube Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "FoxTube Downloader is a browser extension that helps you save videos from FoxTube directly through your browser. Instead of hunting through page source code or using separate downloader sites, this extension detects playable media on the page and gives you a simple button to download it.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/foxtube-downloader-fullscreen-01-46302f35b2.webp",
+    "https://apps.serp.co/media/optimized-products/foxtube-downloader-fullscreen-02-8cfa23f11f.webp",
+    "https://apps.serp.co/media/optimized-products/foxtube-downloader-fullscreen-03-1b73c3f081.webp",
+    "https://apps.serp.co/media/optimized-products/foxtube-downloader-fullscreen-04-758873556d.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "How do I download a FoxTube video?",
+      "answer": "Open a supported FoxTube page, play the video if needed, then use the player download button, the extension popup, or the right-click menu."
+    },
+    {
+      "question": "What formats can it detect?",
+      "answer": "The extension is designed to normalize direct MP4 URLs and HLS/M3U8-style media candidates when the page exposes them."
+    },
+    {
+      "question": "Will it show different quality options?",
+      "answer": "If the page exposes multiple variants, the extension attempts to infer quality from labels or URLs and sorts formats by detected height where possible."
+    },
+    {
+      "question": "Where are downloads saved?",
+      "answer": "The extension uses an organized FoxTube download folder for your saved files."
+    },
+    {
+      "question": "Do I need to press play first?",
+      "answer": "Often yes. Some pages only surface the actual media request after player scripts run or playback starts."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Check your browser download permissions and ensure the extension has the necessary access to the FoxTube domain."
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Detects playable media from FoxTube video pages without manual inspection",
+    "Adds a download button directly on the video player area",
+    "Works through the extension popup or right-click context menu",
+    "Includes 3 free trial downloads to test the workflow",
+    "Saves files as MP4 for easy playback and archiving",
+    "Download button attached to the FoxTube video player area",
+    "Media detection from page video tags, metadata, scripts, and resource entries",
+    "Direct MP4 and HLS candidate handling through the shared pipeline",
+    "Format labels sorted by inferred quality where possible",
+    "Right-click context menu for page and video contexts",
+    "In-page download progress UI during file saving",
+    "Organized FoxTube download folder for saved files",
+    "OTP email activation with 3 free trial downloads"
+  ],
+  "content": {
+    "why": [
+      "FoxTube video pages often expose media through player scripts rather than simple file links you can right-click and save. Generic browser tools may show you ad assets or non-video content instead of the actual stream you want to download. This makes saving a video feel like a technical chore rather than a normal browsing action.",
+      "FoxTube Downloader changes that by looking at the page for real media candidates and filtering out noise. It checks video tags, metadata, scripts, and resource activity to find playable content. The result is a straightforward download button on the player area, a popup with detected formats, and a right-click shortcut — all without leaving the FoxTube page."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open FoxTube and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Install the FoxTube Downloader extension from the latest release.",
+      "Open a new tab and navigate to a FoxTube video page you want to save.",
+      "Press play on the video player so the page loads the media stream.",
+      "Look for the download button that appears on the video player area.",
+      "Click the download button to see the available format options.",
+      "Select the quality you prefer from the list.",
+      "Wait for the download to process and finish.",
+      "Save the MP4 file to your preferred location."
+    ],
+    "supported_formats": [
+      "Input: Direct MP4 URLs and HLS/M3U8-style media candidates detected from FoxTube pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "FoxTube viewers who want offline access to videos",
+      "Users who prefer a button-driven extension over copy-and-paste downloader sites",
+      "People who want format choices without digging through developer tools",
+      "Anyone looking for a simple browser workflow instead of command-line tools"
+    ],
+    "use_cases": [
+      "Save a FoxTube video for offline viewing when you do not have internet access",
+      "Detect playable media already exposed on a FoxTube page without manual inspection",
+      "Choose from detected MP4 or HLS candidates where multiple formats are available",
+      "Trigger downloads from the player UI instead of inspecting page source",
+      "Use the extension popup or right-click menu for a faster workflow"
+    ],
+    "troubleshooting": [
+      "No download button appears on the video player Refresh the page, press play on the video, and wait a few seconds for the extension to detect the media.",
+      "The popup shows no media detected Make sure you are on a supported FoxTube video page and that the video has started playing.",
+      "Download does not start after clicking Check your browser download permissions and ensure the extension has the necessary access to the FoxTube domain.",
+      "The quality options look limited The extension can only show formats that the page exposes. Some videos may only have one available quality.",
+      "Download fails partway through Try again with a stable internet connection. If the issue persists, refresh the page and restart the download."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported FoxTube page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Press play on the video first to help the extension detect the media stream",
+      "Available quality options depend on what the FoxTube page exposes"
+    ],
+    "about": [
+      "FoxTube is a video hosting platform that offers a wide range of adult content. FoxTube Downloader makes it easier to save videos from the platform directly through your browser without needing separate tools or software."
+    ]
+  },
+  "serpx_link": "https://serpx.link/foxtube-downloader",
+  "github_topics": [
+    "foxtube-download",
+    "foxtube-downloader",
+    "foxtube-video-downloader",
+    "foxtube-video-downloader-online",
+    "foxtube-video-downloader-mac",
+    "foxtube-video-downloader-window",
+    "foxtube-video-downloader-free",
+    "foxtube-video-downloader-extension",
+    "foxtube-video-downloader-app",
+    "foxtube-video-downloader-chrome",
+    "foxtube-video-downloader-from-url",
+    "how-to-download-foxtube-videos",
+    "how-to-download-foxtube-videos-mac",
+    "how-to-download-foxtube-videos-windows",
+    "how-to-download-foxtube-videos-online",
+    "how-to-download-foxtube-videos-free",
+    "how-to-download-from-foxtube",
+    "how-to-download-videos-from-foxtube",
+    "download-foxtube-videos",
+    "foxtube-video-tutorial",
+    "save-foxtube-videos",
+    "foxtube-video-content-saver",
+    "how-to-download-foxtube-videos-for-free"
+  ],
+  "hashtags": [
+    "#FoxtubeDownload",
+    "#FoxtubeDownloader",
+    "#FoxtubeVideoDownloader",
+    "#FoxtubeVideoDownloaderOnline",
+    "#FoxtubeVideoDownloaderMac",
+    "#FoxtubeVideoDownloaderWindow",
+    "#FoxtubeVideoDownloaderFree",
+    "#FoxtubeVideoDownloaderExtension",
+    "#FoxtubeVideoDownloaderApp",
+    "#FoxtubeVideoDownloaderChrome",
+    "#FoxtubeVideoDownloaderFromURL",
+    "#HowToDownloadFoxtubeVideos",
+    "#HowToDownloadFoxtubeVideosMac",
+    "#HowToDownloadFoxtubeVideosWindows",
+    "#HowToDownloadFoxtubeVideosOnline",
+    "#HowToDownloadFoxtubeVideosFree",
+    "#HowToDownloadFromFoxtube",
+    "#HowToDownloadVideosFromFoxtube",
+    "#DownloadFoxtubeVideos",
+    "#FoxtubeVideoTutorial",
+    "#SaveFoxtubeVideos",
+    "#FoxtubeVideoContentSaver",
+    "#HowToDownloadFoxtubeVideosForFree"
+  ],
+  "youtube_tags": [
+    "Foxtube Download",
+    "Foxtube Downloader",
+    "Foxtube Video Downloader",
+    "Foxtube Video Downloader Online",
+    "Foxtube Video Downloader Mac",
+    "Foxtube Video Downloader Window",
+    "Foxtube Video Downloader Free",
+    "Foxtube Video Downloader Extension",
+    "Foxtube Video Downloader App",
+    "Foxtube Video Downloader Chrome",
+    "Foxtube Video Downloader From URL",
+    "How To Download Foxtube Videos",
+    "How To Download Foxtube Videos Mac",
+    "How To Download Foxtube Videos Windows",
+    "How To Download Foxtube Videos Online",
+    "How To Download Foxtube Videos Free",
+    "How To Download From Foxtube",
+    "How To Download Videos From Foxtube",
+    "Download Foxtube Videos",
+    "Foxtube Video Tutorial",
+    "Save Foxtube Videos",
+    "Foxtube Video Content Saver",
+    "How To Download Foxtube Videos For Free"
+  ]
+}
